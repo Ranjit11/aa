@@ -1,0 +1,211 @@
+body{
+	padding: 0;
+	margin:0;
+	background: url("back.jpg");
+	color: #FFFFFF;
+}
+.div1{
+	height: 100px;
+	background-color: black;
+	color: white;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+
+}
+nav ul li{
+	text-decoration: none;
+	list-style: none;
+}
+nav ul li a{
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.div2{
+	display: flex;
+	background-color: rgba(0,0,0,0.6);
+	height: 100vh;
+
+}
+.div3 p{
+	margin-left: 5%%;
+	margin-top: 5%;
+	font-size: 25px;
+}
+.div3{
+	width: 50%;
+	flex-direction: row;
+}
+.div3 h3{
+	margin-top: 15%;
+	font-size: 2.7rem;
+	width: 100%;
+}
+.div3 img{
+	width: 70%;
+	}
+.div4{
+	background-color:black;
+	color: white;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.div2 img{
+	border-radius: 40%;
+	height: 580px;
+	width: 280px;
+	margin-top: 5%;
+	margin-left: 20%;
+
+}
+.div4 ul{
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+
+}
+.div4 ul li{
+letter-spacing: 200px;
+font-size: 40px;
+}
+.shooter, .shooters{
+	margin-left: 20%;
+
+width: 50%;	background-color: grey;
+	border:1px double black;
+}
+.shooter{
+
+}
+.shooters{
+	margin-right: 10%;
+}
+h2{
+	text-align: center;
+}
+form{
+	margin: 3%;
+	display: flex;
+}
+.all{
+	display: flex;
+}
+.ol{
+	display: flex;
+	flex-direction:column;
+	margin: 1%;
+}
+.shout{
+	margin: 2%;
+}
+.shoot{
+	margin: 2%;
+}
+.shouts{
+	display: flex;
+}
+.shouts1, .shouts2{
+	margin:2%;
+
+}
+.shouts2{
+	margin-top: 7%;
+	margin-left: 15%;
+}
+.social{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	background-color: rgba(0,0,0,0.6);
+}
+.soc{
+	width: 30%;
+	margin: 1%;
+	flex-direction: row;
+}
+.soc ul{
+	list-style: none;
+}
+.soc li{
+	font-size: 8rem;
+	flex-direction: column;
+	margin: 3% 2%;
+	padding: 2%;
+}
+.proto{
+	background-color: rgba(0,0,0,0.6);
+	margin: 2%;
+}
+.proto img{
+	width: 86%; margin:5%;
+}
+.proto p{
+	margin-left: 5%;
+	font-size: 1.2rem;
+}
+.proto h1{
+	font-size: 2.75rem;
+}
+.proto h2{
+	margin-left: 10%;
+	font-size: 2.5rem;
+}
+.proto h3{
+	margin-left: 10%;
+	font-size: 2.1rem;
+}
+.proto p a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 650;
+}
+
+h1{
+	text-align: center;
+}
+iframe{
+	width: 50%;
+	margin-left: 23%;
+	margin-right: 23%;
+}
+@media screen and (max-width: 600px){
+section, form{flex-direction:column;}
+
+.shooter, .shooters{width: 96%; margin: 1%;}
+
+iframe{width: 96%; margin: 1%;}
+
+}
+.div7{
+	color: white;    
+	text-align: center;
+font-size: 25px;
+width: 50%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+	border:2px solid #000000;
+}
+.div10{
+		background-color: rgba(0,0,0,0.6);
+
+
+}
+.div6 p{
+	font-size: 20pt;
+}
+.div6 h3{
+	font-size: 25pt;
+	text-align: center;
+}
